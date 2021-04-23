@@ -11,9 +11,11 @@
     box-sizing: border-box;
 }
 
+/*Elementos base*/
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
@@ -37,4 +39,11 @@ header nav a{
 
 header nav a:hover{
     color: white;
+}
+
+/*Filme principal*/
+.filme-principal{
+    background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.055)100%), url('/img/capa-hp-part2.jpg');
+    height: 400px;
+    background-size: cover;
 }
