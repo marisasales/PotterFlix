@@ -25,10 +25,9 @@ header .container{
 }
 
 header .logo{
-    margin-left: 5px;
     color: var(--dourado);
     font-family: 'Arial Black', Times;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 header nav a{
@@ -52,15 +51,15 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-principal .titulo{
-    font-size: 45px;
+.titulo{
+    width: 300px;
 }
 
-.filme-principal .info, .sinopse{
+.info, .sinopse{
     margin-bottom: 10px;
 }
 
-.filme-principal .descricao{
+.descricao{
     margin-bottom: 35px;
 }
 
@@ -82,4 +81,12 @@ header nav a:hover{
 
 .botao i{
     margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 75%;
 }
