@@ -1,3 +1,10 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Wizard World';
+    src: url('/font/WizardWorldSimplified-Kxr7.ttf');
+}
+
 /*Declaração de variável*/
 :root{
     --dourado: #dba723;
@@ -26,14 +33,15 @@ header .container{
 
 header .logo{
     color: var(--dourado);
-    font-family: 'Arial Black', Times;
-    font-size: 35px;
+    font-family: 'Wizard World', sans-serif;
+    font-size: 40px;
 }
 
 header nav a{
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
+    font-family: 'Wizard World', sans-serif;
 }
 
 header nav a:hover{
@@ -61,6 +69,7 @@ header nav a:hover{
 
 .descricao{
     margin-bottom: 35px;
+    width: 500px;
 }
 
 .botao{
