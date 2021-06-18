@@ -6,7 +6,7 @@
 }
 
 /*Declaração de variável*/
-:root{
+:root {
     --dourado: #dba723;
     --preto: #141414;
 }
@@ -25,32 +25,32 @@ body{
     color: white;
 }
 
-header .container{
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header .logo{
+header .logo {
     color: var(--dourado);
     font-family: 'Wizard World', sans-serif;
     font-size: 40px;
     margin-top: 3px;
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
     font-family: 'Wizard World', sans-serif;
 }
 
-header nav a:hover{
+header nav a:hover {
     color: white;
 }
 
 /*Filme principal*/
-.filme-principal{
+.filme-principal {
     background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.055)100%), url('/img/capa-hp-part2.jpg');
     height: 450px;
     background-size: cover;
@@ -60,20 +60,20 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.titulo{
+.titulo {
     width: 300px;
 }
 
-.info, .sinopse{
+.info, .sinopse {
     margin-bottom: 10px;
 }
 
-.descricao{
+.descricao {
     margin-bottom: 35px;
     width: 500px;
 }
 
-.botao{
+.botao {
     background-color: rgba(0, 0, 0, 0.50);
     border: none;
     color: white;
@@ -83,20 +83,26 @@ header nav a:hover{
     cursor: pointer;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: var(--dourado);
     color: black;
     transition: 0.3s ease-in;
 }
 
-.botao i{
+.botao i {
     margin-right: 5px;
 }
 
-.container{
+.container {
     margin-left: 20px;
 }
 
 .filme-principal .container{
     width: 75%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
