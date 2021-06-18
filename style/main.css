@@ -42,7 +42,7 @@ header nav a {
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
-    font-family: 'Wizard World', sans-serif;
+    font-weight: bold;
 }
 
 header nav a:hover {
@@ -52,7 +52,7 @@ header nav a:hover {
 /*Filme principal*/
 .filme-principal {
     background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.055)100%), url('/img/capa-hp-part2.jpg');
-    height: 450px;
+    height: 500px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,6 @@ header nav a:hover {
 
 .descricao {
     margin-bottom: 35px;
-    width: 500px;
 }
 
 .botao {
@@ -98,11 +97,15 @@ header nav a:hover {
 }
 
 .filme-principal .container{
-    width: 75%;
+    width: 90%;
 }
 
 .box-filme {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrossel-filmes {
+    margin-top: 5px;
 }
